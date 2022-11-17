@@ -44,7 +44,7 @@
   --bs-gray-700: #495057;
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
-  --bs-primary: #46701f;
+  --bs-primary: #3e1f70;
   --bs-secondary: #EDF2F8;
   --bs-success: #49556B;
   --bs-info: #0dcaf0;
@@ -52,7 +52,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #18202D;
-  --bs-primary-rgb: 70, 112, 31;
+  --bs-primary-rgb: 62, 31, 112;
   --bs-secondary-rgb: 237, 242, 248;
   --bs-success-rgb: 73, 85, 107;
   --bs-info-rgb: 13, 202, 240;
@@ -83,8 +83,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #46701f;
-  --bs-link-hover-color: #385a19;
+  --bs-link-color: #3e1f70;
+  --bs-link-hover-color: #32195a;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -405,6 +405,11 @@ img {
 .border-secondary {
   --bs-border-opacity: 1;
   border-color: rgba(var(--bs-secondary-rgb), var(--bs-border-opacity)) !important;
+}
+
+.border-dark {
+  --bs-border-opacity: 1;
+  border-color: rgba(var(--bs-dark-rgb), var(--bs-border-opacity)) !important;
 }
 
 .border-3 {
